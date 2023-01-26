@@ -1,0 +1,51 @@
+*{
+    
+     font-size: medium;
+     font-family:sans-serif ;
+    
+}
+body{
+     display: flex;
+     justify-content: center;
+    place-content: center;
+   
+}
+h3{
+     font-size: 2em;
+     font-family: 'Times New Roman';
+}
+p{
+     font-size: 20px;
+     font-family: lucida;
+}
+.cover{
+    background-color: rgb(216, 231, 212);
+     position: relative;
+     padding: 30px;
+     /* top: 50px; */
+     height: 700px;
+     width: 90%;
+align-self: center;
+}
+.sidenav{
+   /* background-image: url(/bg-sidebar-desktop.png); */
+     background-color:paleturquoise;
+     width: 30%;
+     padding: 10px;
+     height: 
+     90%;
+     position:relative;
+     border-radius:15px ;
+}
+.container{
+     background-color: rgb(200, 209, 206);
+     border-radius: 9px;
+     padding: 7px;
+     position: relative;
+     height: 200px;
+     width: 50%;
+     left: 40%;
+     bottom:400px;
+     align-items: center;
+     box-shadow: 0 6px 45px  rgb(121, 205, 157);
+}

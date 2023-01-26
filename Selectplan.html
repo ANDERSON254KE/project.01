@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="selectplan.css">
+     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+     
+     <title>Frontend Mentor | Multi-step form</title>
+     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   </head>
+   <body>
+   <div class="cover" >
+    <div class="sidenav" style="background-image:url('bg-sidebar-desktop.png');" >
+     <!--add icons for the numbers from the icons page from web--> 
+    1 <h3>STEP 1</h3>
+     <STRONG>YOUR INFO</STRONG>
+     <br>
+     2 <h3>STEP 2</h3>
+     <STRONG>SELECT PLAN</STRONG>
+     <br>
+     3 <h3>STEP 3</h3>
+     <STRONG>ADD-ONS</STRONG>
+     <br>
+     4 <h3>STEP 4</h3>
+     <STRONG>SUMMARRY</STRONG>
+     <br>
+    </div>
+    <div class="selectplan">
+     <h2>Select your plan</h2>
+     <p>You have the option of monthly or yearly billing.</p>
+     <div class="card">
+          <img src="download.jpg" alt=""style="width: 100px;">
+          <div class="container">
+               Monthly/Arcade <br> $9/mo
+          </div>
+     </div>
+     <div class="card1" onclick="show()">
+          <img src="download.jpg" alt=""style="width: 100px;">
+          <div class="container">
+               Yearly/Advanced <br> $12/mo
+          </div>
+     </div>
+     <div class="card2">
+          <img src="download.jpg" alt="" style="width: 100px;">
+          <div class="container">
+               Pro <br> $17/mo
+          </div>
+     </div>
+     <input type="button" id="mybtn"value="Monthly" onclick="tgl();"><br><br> 
+     <button id="back"><a href="/Yourinfo.html">Back</a></button>  <button id="but"><a href="pickadons.html">Next step</a></button>
+     
+    </div>
+</div>
+     <script>
+          function tgl()
+          {
+               var t = document.getElementById("mybtn");
+               if(t.value=="Monthly"){
+                    t.value="Yearly";
+               }
+               else if(t.value=="Yearly")
+               {
+                    t.value="Monthly";
+               }
+          }
+             </script>
+</body>
+</html>

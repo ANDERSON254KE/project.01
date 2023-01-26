@@ -1,0 +1,85 @@
+*{
+    
+     font-size: medium;
+     font-family:sans-serif ;
+    
+}
+body{
+     display: flex;
+     justify-content: center;
+    place-content: center;
+   
+}
+h3{
+     font-size: 2em;
+     font-family: 'Times New Roman';
+}
+p{
+     font-size: 20px;
+     font-family: lucida;
+}
+.cover{
+    background-color: rgb(216, 231, 212);
+     position: relative;
+     padding: 30px;
+     /* top: 50px; */
+     height: 700px;
+     width: 90%;
+align-self: center;
+}
+.sidenav{
+   /* background-image: url(/bg-sidebar-desktop.png); */
+     background-color:paleturquoise;
+     width: 30%;
+     padding: 10px;
+     height: 
+     90%;
+     position:relative;
+     border-radius:15px ;
+}
+.con{
+     display: relative;
+     background-color: rgb(200, 209, 206);
+     border-radius: 9px;
+     padding: 9px;
+}
+.mon,.onl{
+     font-family:calibri;
+     }
+    span{
+     display:flex;
+     justify-content: right;
+} 
+
+.container{
+          /* background-color: blueviolet; */
+          position: relative;
+          height: 300px;
+          width: 30%;
+          left: 40%;
+          bottom:700px;
+          align-items: center;
+     }
+     button{
+          color: antiquewhite;
+          font-size: larger;
+          padding: 15px;
+           background-color: rgb(31, 31, 162);
+          border-radius: 5px;
+          box-shadow:0 6px 15px 0 rgb(15, 229, 108);
+     }
+     .nxt0{
+          display:relative;
+          justify-content: left;
+     }
+    .nxt{
+          display: relative;
+          justify-content: right;
+     }
+
+     a{
+          color: whitesmoke;
+     }
+     a::after{
+      color: rgb(157, 206, 11);
+     }

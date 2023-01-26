@@ -1,0 +1,83 @@
+*{
+    
+     font-size: medium;
+     font-family:sans-serif ;
+    
+}
+body{
+     display: flex;
+     justify-content: center;
+    place-content: center;
+   
+}
+.cover{
+     background-color: rgb(223, 230, 221);
+     position: relative;
+     padding: 30px;
+     /* top: 50px; */
+     height: 700px;
+     width: 90%;
+align-self: center;
+}
+
+.sidenav{
+   /* background-image: url(/bg-sidebar-desktop.png); */
+     background-color:paleturquoise;
+     width: 35%;
+     height: 
+     90%;
+     position:relative;
+     border-radius:15px ;
+}
+.selectplan{
+     /* background-color: blueviolet; */
+     position: relative;
+     height: 390px;
+     width: 60%;
+     left: 40%;
+     bottom: 620px;
+}
+
+.card1{
+     /* display: flex; */
+position: relative;
+left: 250px;
+bottom: 145px;
+box-shadow:0 3px 45px 0 rgb(8, 255, 74);
+
+}
+.card2{
+     position: relative;
+     left: 140px;
+     bottom: 60px;
+     box-shadow:0 3px 9px 0 rgb(81, 23, 135);
+
+     }  
+    
+    
+     #back{
+          position: relative;
+          border-radius: 6px;
+          box-shadow:0 3px 9px 0 rgb(81, 23, 135);
+                 padding: 9px;
+          background-color: rgb(124, 124, 195);
+    color: #eef1f4;
+     }
+#but{
+     position: relative;
+     border-radius: 6px;
+     box-shadow:0 3px 9px 0 rgb(81, 23, 135);
+     left: 350px;
+     padding: 9px;
+     background-color: rgb(22, 150, 43);
+}
+.card,.card1,.card2{
+     box-shadow: 0 7px 30px 0 rgba(24, 232, 118, 0.52);
+     transition: 0.5s;
+     background-color: #224562;
+     border-radius: 5px;
+     padding: 10px;
+     width: 120px;
+     height: 130px;
+     } 
+     
